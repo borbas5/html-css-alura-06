@@ -16,6 +16,12 @@
     --preto: #000000;
     --cinza: #474646;
     --cinza-claro: #858585;
+    --cor-selection: #eb9b00ad;
+}
+
+::selection {
+    background-color: var(--cor-selection);
+    color: var(--branco);
 }
 
 body {
